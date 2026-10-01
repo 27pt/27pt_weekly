@@ -1,0 +1,16 @@
+{
+    "name": "thesis-template-master",
+    "packageManager": "npm@11.18.0",
+    "engines": {
+        "node": ">=24"
+    },
+    "scripts": {
+        "lint": "being-textlint",
+        "fix": "being-textlint --fix",
+        "lint-style": "being-textlint -f checkstyle",
+        "mcp": "being-textlint --mcp"
+    },
+    "devDependencies": {
+        "being-textlint-ja-latex": "github:being24/textlint-ja-latex#v0.2.0"
+    }
+}
